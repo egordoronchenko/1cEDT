@@ -7,8 +7,8 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Атракцион</dataPath>
-			<field>Атракцион</field>
+			<dataPath>ВидАтракциона</dataPath>
+			<field>ВидАтракциона</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
@@ -53,7 +53,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	АктивныеПосещенияОстаткиИОбороты.Атракцион,
+	АктивныеПосещенияОстаткиИОбороты.ВидАтракциона,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийНачальныйОстаток,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийПриход,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийРасход,
@@ -191,7 +191,7 @@
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Атракцион</dcsset:field>
+							<dcsset:field>ВидАтракциона</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						</dcsset:item>

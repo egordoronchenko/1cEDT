@@ -47,13 +47,13 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="d4deb9a0-c41b-462d-b10d-f6fb0385e996">
-    <name>Атракцион</name>
+    <name>ВидАтракциона</name>
     <synonym>
       <key>ru</key>
-      <value>Атракцион</value>
+      <value>Вид атракциона</value>
     </synonym>
     <type>
-      <types>CatalogRef.Атракционы</types>
+      <types>CatalogRef.ВидыАтракционов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
