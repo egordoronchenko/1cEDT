@@ -46,8 +46,10 @@
   <roles>Role.Кассир</roles>
   <roles>Role.ОператорАтракциона</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
   <catalogs>Catalog.Атракционы</catalogs>
   <catalogs>Catalog.ВидыАтракционов</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПосещениеАтракционов</documents>
   <documents>Document.ПродажаБилета</documents>
