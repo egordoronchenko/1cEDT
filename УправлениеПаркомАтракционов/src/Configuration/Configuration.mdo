@@ -47,6 +47,7 @@
   <roles>Role.ОператорАтракциона</roles>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
+  <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
   <catalogs>Catalog.Атракционы</catalogs>
   <catalogs>Catalog.ВидыАтракционов</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
